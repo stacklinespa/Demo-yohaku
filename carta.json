@@ -1,0 +1,363 @@
+{
+  "season": "primavera–verano",
+  "location": {
+    "address": "6 Oriente 1060, local 29",
+    "city": "Talca, Chile",
+    "hours": [
+      [
+        "Lunes a viernes",
+        "8:30 a 19:00"
+      ],
+      [
+        "Sábado",
+        "10:00 a 14:00"
+      ]
+    ],
+    "instagram": "https://www.instagram.com/yohaku.cl/"
+  },
+  "categories": [
+    {
+      "id": "cafe",
+      "tab": "Café",
+      "name": "Café",
+      "note": "Café de especialidad. Pídelo caliente o frío.",
+      "groups": [
+        {
+          "items": [
+            {
+              "name": "Espresso",
+              "price": 2200
+            },
+            {
+              "name": "Americano",
+              "price": 2300
+            },
+            {
+              "name": "Macchiato",
+              "price": 2500
+            },
+            {
+              "name": "Cappuccino",
+              "price": 3000
+            },
+            {
+              "name": "Flat White",
+              "price": 3000
+            },
+            {
+              "name": "Mocaccino",
+              "price": 3500
+            },
+            {
+              "name": "Latte",
+              "price": 3300
+            },
+            {
+              "name": "Espresso Tonic",
+              "price": 3800
+            },
+            {
+              "name": "Filtrado",
+              "price": 3000
+            },
+            {
+              "name": "Dirty Chai",
+              "price": 3800
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "matcha",
+      "tab": "Matcha y lattes",
+      "name": "Matcha y lattes",
+      "note": "Opciones calientes o frías.",
+      "groups": [
+        {
+          "name": "Té en polvo con leche",
+          "items": [
+            {
+              "name": "Matcha Latte",
+              "price": 3500
+            },
+            {
+              "name": "Hojicha Latte",
+              "price": 3500
+            },
+            {
+              "name": "Chai Latte",
+              "price": 3500
+            }
+          ]
+        },
+        {
+          "name": "Chafén · Copihue",
+          "note": "Tés japoneses en latte.",
+          "items": [
+            {
+              "name": "Genmaicha Latte",
+              "price": 3500
+            },
+            {
+              "name": "Jazmín Latte",
+              "price": 3500
+            },
+            {
+              "name": "Long Jing Latte",
+              "price": 3500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "te",
+      "tab": "Té en hebras",
+      "name": "Selección de té",
+      "groups": [
+        {
+          "name": "Anamaya",
+          "note": "Las variedades se sirven en dos tamaños.",
+          "options": [
+            {
+              "label": "300 ml",
+              "price": 2000
+            },
+            {
+              "label": "500 ml",
+              "price": 3000
+            }
+          ],
+          "items": [
+            {
+              "name": "Tie Guan Yin",
+              "description": "Té oolong de jade."
+            },
+            {
+              "name": "Genmaicha",
+              "description": "Té verde sencha con arroz integral tostado."
+            },
+            {
+              "name": "Hojicha",
+              "description": "Té verde bancha tostado."
+            },
+            {
+              "name": "Brisa Tropical",
+              "description": "Té verde, papaya y esencia natural de maracuyá."
+            },
+            {
+              "name": "Sencha Fukujyu",
+              "description": "Té verde de origen."
+            },
+            {
+              "name": "Earl Grey",
+              "description": "Té negro con esencia natural de bergamota."
+            },
+            {
+              "name": "Ceylon Pettiagalla",
+              "description": "Té negro de origen."
+            },
+            {
+              "name": "Summer Peach",
+              "description": "Té verde con papaya, damasco, durazno, hojas de mora y caléndula."
+            },
+            {
+              "name": "Masala Chai",
+              "description": "Canela, cardamomo, clavo de olor, pimienta y jengibre."
+            }
+          ]
+        },
+        {
+          "items": [
+            {
+              "name": "Copihue Tea",
+              "description": "Selección rotativa de té verde, negro, oolong y blanco. Pregunta por las variedades disponibles.",
+              "options": [
+                {
+                  "label": "300 ml",
+                  "price": 2300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "temporada",
+      "tab": "Temporada",
+      "name": "De temporada",
+      "note": "Bebidas especiales de primavera y verano.",
+      "groups": [
+        {
+          "items": [
+            {
+              "name": "Iced Matcha Berries",
+              "description": "Matcha, leche y salsa de berries.",
+              "price": 3900
+            },
+            {
+              "name": "Hanami",
+              "description": "Infusión de sakura, jarabe de hibisco y espuma fría de té de jazmín.",
+              "price": 3900
+            },
+            {
+              "name": "Espresso Yuzu",
+              "description": "Yuzu, ginger ale y un shot de espresso.",
+              "price": 3900
+            },
+            {
+              "name": "Matcha Lychee",
+              "description": "Matcha, jugo de naranja y lychee.",
+              "price": 3900
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sandos",
+      "tab": "Sandos",
+      "name": "Sandos",
+      "note": "Sándwiches japoneses con pan de molde suave y relleno generoso.",
+      "groups": [
+        {
+          "items": [
+            {
+              "name": "Tamago Sando",
+              "description": "Pasta de huevo con mayo japonesa Kewpie.",
+              "price": 5000
+            },
+            {
+              "name": "Katsu Sando",
+              "description": "Cerdo apanado, repollo y salsa tonkatsu.",
+              "price": 5500
+            },
+            {
+              "name": "Chilean Sando",
+              "description": "Carne desmechada, palta, tomate y mayo de la casa.",
+              "price": 5800
+            },
+            {
+              "name": "Ebi Sando",
+              "description": "Lechuga y camarones acevichados.",
+              "price": 6000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dulces",
+      "tab": "Dulces",
+      "name": "Algo dulce",
+      "groups": [
+        {
+          "items": [
+            {
+              "name": "Mochis",
+              "options": [
+                {
+                  "label": "1 unidad",
+                  "price": 2000
+                },
+                {
+                  "label": "3 unidades",
+                  "price": 5000
+                }
+              ]
+            },
+            {
+              "name": "Hanami Dango",
+              "description": "Brocheta japonesa de dumplings de arroz.",
+              "price": 2500
+            },
+            {
+              "name": "Flan / Purin tradicional",
+              "price": 2500
+            },
+            {
+              "name": "Flan / Purin de sabores",
+              "price": 3000
+            },
+            {
+              "name": "Cheesecake de yuzu",
+              "price": 3500
+            },
+            {
+              "name": "Tarta vasca de matcha y berries",
+              "price": 4500
+            },
+            {
+              "name": "Brownie",
+              "price": 3000
+            },
+            {
+              "name": "Pie de limón",
+              "price": 3000
+            },
+            {
+              "name": "Alfajor",
+              "options": [
+                {
+                  "label": "1 unidad",
+                  "price": 1000
+                },
+                {
+                  "label": "2 unidades",
+                  "price": 1500
+                }
+              ]
+            },
+            {
+              "name": "Shortcake",
+              "price": 3500
+            },
+            {
+              "name": "Torta Amor",
+              "price": 4000
+            },
+            {
+              "name": "Rollitos de canela",
+              "price": 3000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "otras-bebidas",
+      "tab": "Otras bebidas",
+      "name": "Otras bebidas",
+      "groups": [
+        {
+          "items": [
+            {
+              "name": "Coca-Cola",
+              "price": 2000
+            },
+            {
+              "name": "Coca-Cola Zero",
+              "price": 2000
+            },
+            {
+              "name": "Jugos Andina",
+              "price": 2000
+            },
+            {
+              "name": "Jugo natural",
+              "price": 3000
+            },
+            {
+              "name": "Agua",
+              "description": "Con o sin gas.",
+              "price": 1500
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "promotions": []
+}

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f8f4eb">
+  <meta name="description" content="Consulta la carta de Yohaku Coffee &amp; Tea en Talca. Café de especialidad, matcha, té en hebras, sandos y dulces.">
+  <title>Carta de Yohaku Coffee &amp; Tea · Talca</title>
+  <link rel="icon" type="image/png" href="assets/mochikun-te.png">
+  <link rel="stylesheet" href="assets/paleta.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="nav.js" defer></script>
+</head>
+<body id="inicio">
+  <a class="skip-link" href="#carta">Ir a la carta</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#inicio" aria-label="Yohaku Coffee &amp; Tea, inicio">
+        <img src="assets/logo-yohaku.png" width="56" height="63" alt="">
+      </a>
+      <nav class="top-nav" aria-label="Secciones">
+        <a href="#carta">Carta</a>
+        <a href="#promociones">Promociones</a>
+        <a href="#visitanos">Visítanos</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="hero">
+      <div class="shell hero-inner">
+        <div class="hero-copy">
+          <p class="hero-welcome"><span class="welcome-flower" aria-hidden="true"></span>Bienvenido a Yohaku</p>
+          <h1>Carta <em>%%SEASON%%</em></h1>
+          <p class="hero-summary">Café de especialidad, té y pequeños placeres.</p>
+          <a class="button button-primary" href="#carta">Explorar la carta</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-halo"></div>
+        <img class="art-branch" src="assets/rama-sakura.png" alt="" width="720" height="480" fetchpriority="high">
+        <img class="art-mascot" src="assets/mochikun-te.png" alt="" width="500" height="457" fetchpriority="high">
+        <div class="sakura-drift">
+          <span class="sakura-piece sakura-flower"></span>
+          <span class="sakura-piece"></span>
+          <span class="sakura-piece"></span>
+          <span class="sakura-piece"></span>
+          <span class="sakura-piece sakura-flower"></span>
+          <span class="sakura-piece"></span>
+          <span class="sakura-piece"></span>
+          <span class="sakura-piece"></span>
+          <span class="sakura-piece"></span>
+        </div>
+      </div>
+    </div>
+    <section class="menu" id="carta" aria-labelledby="carta-titulo">
+      <div class="shell menu-intro">
+        <div class="menu-heading">
+          <h2 id="carta-titulo">La carta</h2>
+          <p>Precios en pesos chilenos</p>
+        </div>
+        <form class="menu-search" role="search" aria-label="Buscar productos" hidden>
+          <label for="menu-query" class="visually-hidden">Buscar en la carta</label>
+          <div class="search-field">
+            <span class="search-glyph" aria-hidden="true"></span>
+            <input id="menu-query" type="search" placeholder="Buscar en la carta" enterkeyhint="search" autocomplete="off">
+            <button type="button" class="search-clear" aria-label="Borrar búsqueda" hidden>Borrar</button>
+          </div>
+          <p class="search-status" role="status" aria-live="polite" aria-atomic="true"></p>
+        </form>
+      </div>
+      <nav class="category-nav" aria-label="Categorías de la carta">
+        <div class="shell category-shell">
+          <button class="category-toggle" type="button" aria-expanded="false" aria-controls="category-links" hidden>
+            <span>Categorías</span>
+            <span class="category-current">Café</span>
+            <span class="category-chevron" aria-hidden="true"></span>
+          </button>
+          <button class="category-search" type="button" aria-label="Ir a buscar en la carta" hidden>
+            <span class="search-glyph" aria-hidden="true"></span>
+          </button>
+          <div class="category-links" id="category-links">
+%%CATEGORY_LINKS%%
+          </div>
+        </div>
+      </nav>
+      <div class="shell menu-content">
+%%MENU_SECTIONS%%
+      </div>
+    </section>
+    <section class="visit-section" id="promociones" aria-labelledby="promociones-titulo">
+      <div class="shell promotion-panel">
+        <div class="promotion-heading">
+          <h2 id="promociones-titulo">Promociones y novedades</h2>
+%%PROMOTIONS%%
+          <a class="button button-outline" href="%%INSTAGRAM%%">Ver Instagram</a>
+        </div>
+      </div>
+      <img class="promotion-decoration" src="assets/rama-sakura.png" alt="" width="720" height="480" loading="lazy">
+    </section>
+  </main>
+  <footer class="site-footer" id="visitanos" aria-labelledby="visitanos-titulo">
+    <div class="shell footer-inner">
+      <div>
+        <h2 id="visitanos-titulo">Visítanos en Talca</h2>
+        <address>%%ADDRESS%%<br>%%CITY%%</address>
+        <a class="button button-outline" href="%%MAP%%">Cómo llegar</a>
+      </div>
+      <div class="footer-hours">
+        <h3>Horario</h3>
+        <dl>
+%%HOURS%%
+        </dl>
+        <a class="footer-social" href="%%INSTAGRAM%%">@yohaku.cl</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

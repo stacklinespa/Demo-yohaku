@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="es-CL">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f8f4eb">
+  <meta name="description" content="Consulta la carta de Yohaku Coffee &amp; Tea en Talca. Café de especialidad, matcha, té en hebras, sandos y dulces.">
+  <title>Carta de Yohaku Coffee &amp; Tea · Talca</title>
+  <link rel="icon" type="image/png" href="assets/mochikun-te.png">
+  <link rel="stylesheet" href="assets/paleta.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="nav.js" defer></script>
+</head>
+<body id="inicio">
+  <a class="skip-link" href="#carta">Ir a la carta</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#inicio" aria-label="Yohaku Coffee &amp; Tea, inicio">
+        <img src="assets/logo-yohaku.png" width="56" height="63" alt="">
+      </a>
+      <nav class="top-nav" aria-label="Secciones">
+        <a href="#carta">Carta</a>
+        <a href="#promociones">Promociones</a>
+        <a href="#visitanos">Visítanos</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="hero">
+      <div class="shell hero-inner">
+        <div class="hero-copy">
+          <p class="hero-welcome"><span class="welcome-flower" aria-hidden="true"></span>Bienvenido a Yohaku</p>
+          <h1>Carta <em>primavera–verano</em></h1>
+          <p class="hero-summary">Café de especialidad, té y pequeños placeres.</p>
+          <a class="button button-primary" href="#carta">Explorar la carta</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-halo"></div>
+        <img class="art-branch" src="assets/rama-sakura.png" alt="" width="720" height="480" fetchpriority="high">
+        <img class="art-mascot" src="assets/mochikun-te.png" alt="" width="500" height="457" fetchpriority="high">
+        <div class="sakura-drift">
+          <span class="sakura-piece sakura-flower"></span>
+          <span class="sakura-piece"></span>
+          <span class="sakura-piece"></span>
+          <span class="sakura-piece"></span>
+          <span class="sakura-piece sakura-flower"></span>
+          <span class="sakura-piece"></span>
+          <span class="sakura-piece"></span>
+          <span class="sakura-piece"></span>
+          <span class="sakura-piece"></span>
+        </div>
+      </div>
+    </div>
+    <section class="menu" id="carta" aria-labelledby="carta-titulo">
+      <div class="shell menu-intro">
+        <div class="menu-heading">
+          <h2 id="carta-titulo">La carta</h2>
+          <p>Precios en pesos chilenos</p>
+        </div>
+        <form class="menu-search" role="search" aria-label="Buscar productos" hidden>
+          <label for="menu-query" class="visually-hidden">Buscar en la carta</label>
+          <div class="search-field">
+            <span class="search-glyph" aria-hidden="true"></span>
+            <input id="menu-query" type="search" placeholder="Buscar en la carta" enterkeyhint="search" autocomplete="off">
+            <button type="button" class="search-clear" aria-label="Borrar búsqueda" hidden>Borrar</button>
+          </div>
+          <p class="search-status" role="status" aria-live="polite" aria-atomic="true"></p>
+        </form>
+      </div>
+      <nav class="category-nav" aria-label="Categorías de la carta">
+        <div class="shell category-shell">
+          <button class="category-toggle" type="button" aria-expanded="false" aria-controls="category-links" hidden>
+            <span>Categorías</span>
+            <span class="category-current">Café</span>
+            <span class="category-chevron" aria-hidden="true"></span>
+          </button>
+          <button class="category-search" type="button" aria-label="Ir a buscar en la carta" hidden>
+            <span class="search-glyph" aria-hidden="true"></span>
+          </button>
+          <div class="category-links" id="category-links">
+          <a href="#cafe">Café</a>
+          <a href="#matcha">Matcha y lattes</a>
+          <a href="#te">Té en hebras</a>
+          <a href="#temporada">Temporada</a>
+          <a href="#sandos">Sandos</a>
+          <a href="#dulces">Dulces</a>
+          <a href="#otras-bebidas">Otras bebidas</a>
+          </div>
+        </div>
+      </nav>
+      <div class="shell menu-content">
+        <section class="menu-section" id="cafe" aria-labelledby="titulo-cafe">
+          <h3 id="titulo-cafe">Café</h3>
+          <p class="section-note">Café de especialidad. Pídelo caliente o frío.</p>
+          <div class="menu-group">
+            <ul class="menu-items">
+              <li class="menu-item"><div><p class="item-name">Espresso</p></div><span class="price">$2.200</span></li>
+              <li class="menu-item"><div><p class="item-name">Americano</p></div><span class="price">$2.300</span></li>
+              <li class="menu-item"><div><p class="item-name">Macchiato</p></div><span class="price">$2.500</span></li>
+              <li class="menu-item"><div><p class="item-name">Cappuccino</p></div><span class="price">$3.000</span></li>
+              <li class="menu-item"><div><p class="item-name">Flat White</p></div><span class="price">$3.000</span></li>
+              <li class="menu-item"><div><p class="item-name">Mocaccino</p></div><span class="price">$3.500</span></li>
+              <li class="menu-item"><div><p class="item-name">Latte</p></div><span class="price">$3.300</span></li>
+              <li class="menu-item"><div><p class="item-name">Espresso Tonic</p></div><span class="price">$3.800</span></li>
+              <li class="menu-item"><div><p class="item-name">Filtrado</p></div><span class="price">$3.000</span></li>
+              <li class="menu-item"><div><p class="item-name">Dirty Chai</p></div><span class="price">$3.800</span></li>
+            </ul>
+          </div>
+        </section>
+        <section class="menu-section" id="matcha" aria-labelledby="titulo-matcha">
+          <h3 id="titulo-matcha">Matcha y lattes</h3>
+          <p class="section-note">Opciones calientes o frías.</p>
+          <div class="menu-group">
+            <div class="group-heading"><div><h4>Té en polvo con leche</h4></div></div>
+            <ul class="menu-items">
+              <li class="menu-item"><div><p class="item-name">Matcha Latte</p></div><span class="price">$3.500</span></li>
+              <li class="menu-item"><div><p class="item-name">Hojicha Latte</p></div><span class="price">$3.500</span></li>
+              <li class="menu-item"><div><p class="item-name">Chai Latte</p></div><span class="price">$3.500</span></li>
+            </ul>
+          </div>
+          <div class="menu-group">
+            <div class="group-heading"><div><h4>Chafén · Copihue</h4><p>Tés japoneses en latte.</p></div></div>
+            <ul class="menu-items">
+              <li class="menu-item"><div><p class="item-name">Genmaicha Latte</p></div><span class="price">$3.500</span></li>
+              <li class="menu-item"><div><p class="item-name">Jazmín Latte</p></div><span class="price">$3.500</span></li>
+              <li class="menu-item"><div><p class="item-name">Long Jing Latte</p></div><span class="price">$3.500</span></li>
+            </ul>
+          </div>
+        </section>
+        <section class="menu-section" id="te" aria-labelledby="titulo-te">
+          <h3 id="titulo-te">Selección de té</h3>
+          <div class="menu-group">
+            <div class="group-heading"><div><h4>Anamaya</h4><p>Las variedades se sirven en dos tamaños.</p></div><dl class="group-options"><div><dt>300 ml</dt><dd><span class="price">$2.000</span></dd></div><div><dt>500 ml</dt><dd><span class="price">$3.000</span></dd></div></dl></div>
+            <ul class="menu-items">
+              <li class="menu-item no-price"><div><p class="item-name">Tie Guan Yin</p><p class="item-description">Té oolong de jade.</p></div></li>
+              <li class="menu-item no-price"><div><p class="item-name">Genmaicha</p><p class="item-description">Té verde sencha con arroz integral tostado.</p></div></li>
+              <li class="menu-item no-price"><div><p class="item-name">Hojicha</p><p class="item-description">Té verde bancha tostado.</p></div></li>
+              <li class="menu-item no-price"><div><p class="item-name">Brisa Tropical</p><p class="item-description">Té verde, papaya y esencia natural de maracuyá.</p></div></li>
+              <li class="menu-item no-price"><div><p class="item-name">Sencha Fukujyu</p><p class="item-description">Té verde de origen.</p></div></li>
+              <li class="menu-item no-price"><div><p class="item-name">Earl Grey</p><p class="item-description">Té negro con esencia natural de bergamota.</p></div></li>
+              <li class="menu-item no-price"><div><p class="item-name">Ceylon Pettiagalla</p><p class="item-description">Té negro de origen.</p></div></li>
+              <li class="menu-item no-price"><div><p class="item-name">Summer Peach</p><p class="item-description">Té verde con papaya, damasco, durazno, hojas de mora y caléndula.</p></div></li>
+              <li class="menu-item no-price"><div><p class="item-name">Masala Chai</p><p class="item-description">Canela, cardamomo, clavo de olor, pimienta y jengibre.</p></div></li>
+            </ul>
+          </div>
+          <div class="menu-group single-item">
+            <ul class="menu-items">
+              <li class="menu-item"><div><p class="item-name">Copihue Tea</p><p class="item-description">Selección rotativa de té verde, negro, oolong y blanco. Pregunta por las variedades disponibles.</p></div><dl class="item-options"><div><dt>300 ml</dt><dd><span class="price">$2.300</span></dd></div></dl></li>
+            </ul>
+          </div>
+        </section>
+        <section class="menu-section" id="temporada" aria-labelledby="titulo-temporada">
+          <h3 id="titulo-temporada">De temporada</h3>
+          <p class="section-note">Bebidas especiales de primavera y verano.</p>
+          <div class="menu-group">
+            <ul class="menu-items">
+              <li class="menu-item"><div><p class="item-name">Iced Matcha Berries</p><p class="item-description">Matcha, leche y salsa de berries.</p></div><span class="price">$3.900</span></li>
+              <li class="menu-item"><div><p class="item-name">Hanami</p><p class="item-description">Infusión de sakura, jarabe de hibisco y espuma fría de té de jazmín.</p></div><span class="price">$3.900</span></li>
+              <li class="menu-item"><div><p class="item-name">Espresso Yuzu</p><p class="item-description">Yuzu, ginger ale y un shot de espresso.</p></div><span class="price">$3.900</span></li>
+              <li class="menu-item"><div><p class="item-name">Matcha Lychee</p><p class="item-description">Matcha, jugo de naranja y lychee.</p></div><span class="price">$3.900</span></li>
+            </ul>
+          </div>
+        </section>
+        <section class="menu-section" id="sandos" aria-labelledby="titulo-sandos">
+          <h3 id="titulo-sandos">Sandos</h3>
+          <p class="section-note">Sándwiches japoneses con pan de molde suave y relleno generoso.</p>
+          <div class="menu-group">
+            <ul class="menu-items">
+              <li class="menu-item"><div><p class="item-name">Tamago Sando</p><p class="item-description">Pasta de huevo con mayo japonesa Kewpie.</p></div><span class="price">$5.000</span></li>
+              <li class="menu-item"><div><p class="item-name">Katsu Sando</p><p class="item-description">Cerdo apanado, repollo y salsa tonkatsu.</p></div><span class="price">$5.500</span></li>
+              <li class="menu-item"><div><p class="item-name">Chilean Sando</p><p class="item-description">Carne desmechada, palta, tomate y mayo de la casa.</p></div><span class="price">$5.800</span></li>
+              <li class="menu-item"><div><p class="item-name">Ebi Sando</p><p class="item-description">Lechuga y camarones acevichados.</p></div><span class="price">$6.000</span></li>
+            </ul>
+          </div>
+        </section>
+        <section class="menu-section" id="dulces" aria-labelledby="titulo-dulces">
+          <h3 id="titulo-dulces">Algo dulce</h3>
+          <div class="menu-group">
+            <ul class="menu-items">
+              <li class="menu-item"><div><p class="item-name">Mochis</p></div><dl class="item-options"><div><dt>1 unidad</dt><dd><span class="price">$2.000</span></dd></div><div><dt>3 unidades</dt><dd><span class="price">$5.000</span></dd></div></dl></li>
+              <li class="menu-item"><div><p class="item-name">Hanami Dango</p><p class="item-description">Brocheta japonesa de dumplings de arroz.</p></div><span class="price">$2.500</span></li>
+              <li class="menu-item"><div><p class="item-name">Flan / Purin tradicional</p></div><span class="price">$2.500</span></li>
+              <li class="menu-item"><div><p class="item-name">Flan / Purin de sabores</p></div><span class="price">$3.000</span></li>
+              <li class="menu-item"><div><p class="item-name">Cheesecake de yuzu</p></div><span class="price">$3.500</span></li>
+              <li class="menu-item"><div><p class="item-name">Tarta vasca de matcha y berries</p></div><span class="price">$4.500</span></li>
+              <li class="menu-item"><div><p class="item-name">Brownie</p></div><span class="price">$3.000</span></li>
+              <li class="menu-item"><div><p class="item-name">Pie de limón</p></div><span class="price">$3.000</span></li>
+              <li class="menu-item"><div><p class="item-name">Alfajor</p></div><dl class="item-options"><div><dt>1 unidad</dt><dd><span class="price">$1.000</span></dd></div><div><dt>2 unidades</dt><dd><span class="price">$1.500</span></dd></div></dl></li>
+              <li class="menu-item"><div><p class="item-name">Shortcake</p></div><span class="price">$3.500</span></li>
+              <li class="menu-item"><div><p class="item-name">Torta Amor</p></div><span class="price">$4.000</span></li>
+              <li class="menu-item"><div><p class="item-name">Rollitos de canela</p></div><span class="price">$3.000</span></li>
+            </ul>
+          </div>
+        </section>
+        <section class="menu-section" id="otras-bebidas" aria-labelledby="titulo-otras-bebidas">
+          <h3 id="titulo-otras-bebidas">Otras bebidas</h3>
+          <div class="menu-group">
+            <ul class="menu-items">
+              <li class="menu-item"><div><p class="item-name">Coca-Cola</p></div><span class="price">$2.000</span></li>
+              <li class="menu-item"><div><p class="item-name">Coca-Cola Zero</p></div><span class="price">$2.000</span></li>
+              <li class="menu-item"><div><p class="item-name">Jugos Andina</p></div><span class="price">$2.000</span></li>
+              <li class="menu-item"><div><p class="item-name">Jugo natural</p></div><span class="price">$3.000</span></li>
+              <li class="menu-item"><div><p class="item-name">Agua</p><p class="item-description">Con o sin gas.</p></div><span class="price">$1.500</span></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section class="visit-section" id="promociones" aria-labelledby="promociones-titulo">
+      <div class="shell promotion-panel">
+        <div class="promotion-heading">
+          <h2 id="promociones-titulo">Promociones y novedades</h2>
+          <p>Consulta las últimas novedades y promociones de Yohaku en Instagram.</p>
+          <a class="button button-outline" href="https://www.instagram.com/yohaku.cl/">Ver Instagram</a>
+        </div>
+      </div>
+      <img class="promotion-decoration" src="assets/rama-sakura.png" alt="" width="720" height="480" loading="lazy">
+    </section>
+  </main>
+  <footer class="site-footer" id="visitanos" aria-labelledby="visitanos-titulo">
+    <div class="shell footer-inner">
+      <div>
+        <h2 id="visitanos-titulo">Visítanos en Talca</h2>
+        <address>6 Oriente 1060, local 29<br>Talca, Chile</address>
+        <a class="button button-outline" href="https://www.google.com/maps/search/?api=1&amp;query=6+Oriente+1060%2C+local+29%2C+Talca%2C+Chile">Cómo llegar</a>
+      </div>
+      <div class="footer-hours">
+        <h3>Horario</h3>
+        <dl>
+          <div><dt>Lunes a viernes</dt><dd>8:30 a 19:00</dd></div>
+          <div><dt>Sábado</dt><dd>10:00 a 14:00</dd></div>
+        </dl>
+        <a class="footer-social" href="https://www.instagram.com/yohaku.cl/">@yohaku.cl</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
