@@ -102,7 +102,16 @@ const map = new URL('https://www.google.com/maps/search/');
 map.searchParams.set('api', '1');
 map.searchParams.set('query', location.address + ', ' + location.city);
 
+const productionDomain = process.env.VERCEL_PROJECT_PRODUCTION_URL || 'yohaku-xi-three.vercel.app';
+const siteUrl = new URL('https://' + productionDomain);
+const shareImage = new URL('assets/yohaku-carta-social.jpg', siteUrl);
+
 const content = {
+  PAGE_DESCRIPTION: escapeHtml('Consulta la carta de Yohaku Coffee & Tea en Talca. Café de especialidad, té, matcha, sandos y dulces.'),
+  SHARE_TITLE: escapeHtml('Yohaku Coffee & Tea · Carta digital'),
+  SHARE_URL: escapeHtml(siteUrl.href),
+  SHARE_IMAGE: escapeHtml(shareImage.href),
+  SHARE_IMAGE_ALT: escapeHtml('Carta primavera–verano de Yohaku Coffee & Tea en Talca, con Mochikun y flores de sakura.'),
   SEASON: escapeHtml(season),
   CATEGORY_LINKS: categories.map(({ id, tab }) =>
     '          <a href="#' + escapeHtml(id) + '">' + escapeHtml(tab) + '</a>',
