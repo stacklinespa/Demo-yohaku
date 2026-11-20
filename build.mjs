@@ -59,10 +59,19 @@ function renderGroup(group) {
 
 function renderSection(category) {
   const sectionId = escapeHtml(category.id);
+  const title = '<h3 id="titulo-' + sectionId + '">' + escapeHtml(category.name) + '</h3>';
+  const note = category.note ? '<p class="section-note">' + escapeHtml(category.note) + '</p>' : '';
+  const art = category.illustration
+    ? '            <div class="section-art" aria-hidden="true"><img src="assets/'
+      + escapeHtml(category.illustration) + '" alt="" loading="lazy" decoding="async"></div>'
+    : '';
+
   return [
     '        <section class="menu-section" id="' + sectionId + '" aria-labelledby="titulo-' + sectionId + '">',
-    '          <h3 id="titulo-' + sectionId + '">' + escapeHtml(category.name) + '</h3>',
-    category.note ? '          <p class="section-note">' + escapeHtml(category.note) + '</p>' : '',
+    '          <header class="section-heading">',
+    '            <div>' + title + note + '</div>',
+    art,
+    '          </header>',
     ...category.groups.map(renderGroup),
     '        </section>',
   ].filter(Boolean).join('\n');

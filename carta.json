@@ -18,6 +18,7 @@
   "categories": [
     {
       "id": "cafe",
+      "illustration": "mochikun-cafe.png",
       "tab": "Café",
       "name": "Café",
       "note": "Café de especialidad. Pídelo caliente o frío.",
@@ -113,6 +114,7 @@
     },
     {
       "id": "te",
+      "illustration": "mochikun-te.png",
       "tab": "Té en hebras",
       "name": "Selección de té",
       "groups": [
@@ -186,6 +188,7 @@
     },
     {
       "id": "temporada",
+      "illustration": "mochikun-temporada.png",
       "tab": "Temporada",
       "name": "De temporada",
       "note": "Bebidas especiales de primavera y verano.",
@@ -218,6 +221,7 @@
     },
     {
       "id": "sandos",
+      "illustration": "mochikun-sando.png",
       "tab": "Sandos",
       "name": "Sandos",
       "note": "Sándwiches japoneses con pan de molde suave y relleno generoso.",
@@ -250,6 +254,7 @@
     },
     {
       "id": "dulces",
+      "illustration": "mochikun-dulce.png",
       "tab": "Dulces",
       "name": "Algo dulce",
       "groups": [
